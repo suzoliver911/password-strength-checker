@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "ramda": "^0.26.1",
+    "testdouble": "^3.12.4",
     "ts-node-dev": "^1.0.0-pre.41",
     "tslint-config-prettier": "^1.18.0"
   }
