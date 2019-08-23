@@ -8,7 +8,8 @@
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
     "prod": "tsc && node ./dist/app.js",
-    "test": "jest"
+    "test": "jest",
+    "jest": "npm t -- --watchAll"
   },
   "author": "Suz Oliver",
   "license": "ISC",
@@ -17,15 +18,16 @@
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
+    "testdouble": "^3.12.4",
     "ts-jest": "^24.0.2",
+    "ts-node-dev": "^1.0.0-pre.42",
     "tslint": "^5.19.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "ramda": "^0.26.1",
-    "testdouble": "^3.12.4",
-    "ts-node-dev": "^1.0.0-pre.41",
-    "tslint-config-prettier": "^1.18.0"
+    "ramda": "^0.26.1"
   }
 }
